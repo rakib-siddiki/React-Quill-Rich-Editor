@@ -1,0 +1,28 @@
+.ql-toolbar {
+    @apply rounded-t-md text-left;
+}
+
+.ql-container {
+    @apply rounded-b-md;
+}
+
+.ql-editor {
+    @apply min-h-[300px];
+}
+
+.ql-toolbar.ql-snow,
+.ql-container.ql-snow {
+    @apply !border-gray-200
+}
+
+.ql-picker-label {
+    @apply dark:text-gray-100
+}
+
+.ql-snow .ql-stroke {
+    @apply dark:stroke-gray-100 
+}
+.ql-snow .ql-fill,
+.ql-snow {
+    @apply dark:fill-gray-100
+}
