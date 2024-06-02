@@ -27,8 +27,6 @@ interface IProps {
 }
 
 const Editor = ({ value, onChange, placeholder }: IProps) => {
-    // const [value, setValue] = useState('');
-
     const modules = {
         toolbar: [
             [{ header: [1, 2, 3, 4, 5, 6, false] }],
